@@ -56,7 +56,6 @@ COPY --from=build --chmod=777 ${BUILD_DIR}/client/dist ./client/dist
 COPY entrypoint.sh healthcheck.sh /
 RUN chmod +x /entrypoint.sh /healthcheck.sh
 
-VOLUME /data
 EXPOSE ${FLATNOTES_PORT}/tcp
 HEALTHCHECK --interval=60s --timeout=10s CMD /healthcheck.sh
 
