@@ -1,3 +1,6 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/Hl9gkz?referralCode=gKALTQ)
+
+
 <p align="center">
   <img src="docs/logo.svg" width="300px"></img>
 </p>
